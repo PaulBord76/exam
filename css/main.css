@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    background: #FDFCEF;
+    /* display: flex; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    align-items: center;
+}
+
+.card{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+.header img{
+    width: 245px;
+    height: 60px;
+}
+
+.main{
+    display: flex;
+}
+
+.text{
+    margin-top: 38px;
+}
+
+.text h2{
+    max-width: 465px;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.pic img{
+    max-width: 465px;
+    /* height: 465px; */
+    margin-left: 180px;
+    
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    width: 423px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 30px 0 30px 0;
+
+}
+
+a{
+    display: flex;
+    width: 221px;
+    height: 69px;
+    background-color: #FF6861;
+    border-radius: 100px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 22px 69px;
+}
+
+.discription {
+    max-width: 720px;
+    height: 442px;
+    margin: 120px auto;
+}
+
+
+.header h2{
+    width: 512px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.wrapper{
+    margin: 43.5px;
+    display: flex;
+}
+
+.pictures img {
+    float: left;
+    max-width: 73px;
+    max-height: 73px;
+}
+
+.run{
+    width: 720px;
+    height: 78px;
+    margin-left: 34px;
+}
+
+.run h3 {
+    font-style: bold;
+    font-size: 30px;
+    line-height: 42px;
+    vertical-align: top;
+    margin-bottom: -20px;
+}
+
+.run p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 25px;
+    width: 613px;
+    vertical-align: top;
+}
+
+.game{
+    max-width: 1110px;
+    margin: 0 auto;
+    height: 486px;
+    border-radius: 60px;
+    background: linear-gradient(100deg, #FFF6DF 0%, #FFDFDE 100%);
+    padding-top: 76px;
+    padding-left: 122px;
+    
+
+}
+
+.image img{
+    width: 287px;
+    height: 287px;
+    margin-left: 101px;
+    margin-top: 24px;
+}
+
+.text_1 h2{
+    max-width: 475px;
+    font-style: bold;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.text_1 p{
+    width: 371px;
+    margin-bottom: 24px;
+}
+
+.footer {
+    max-width: 198px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-family: 'Montserrat' sans-serif;
+    font-style: medium;
+    font-size: 15px;
+    line-height: 21px;
+    margin-top: 120px;
+}
+
+@media (max-width: 700px) {
+    .main{
+        flex-direction: column;
+    }
+    
+}
